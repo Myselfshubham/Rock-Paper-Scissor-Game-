@@ -11,16 +11,23 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<windows.h>
 
 int main()
 {
-    printf("\t\tWelcome to world of Rock, Paper and Scissors Game!!!\n");
-    printf("\t\t----------------------------------------------------\n\n");
     
     int N;
     int p1 = 0, p2 = 0, num1, num2;
     char name[15];
-
+    printf("\n\n\t\tLOADING");
+    for (int i = 0; i < 10; i++)
+    {
+        printf(". ");
+        Sleep(200);
+    }
+    system("CLS");
+    printf("\n\t\tWelcome to world of Rock, Paper and Scissors Game!!!\n\n");
+    printf("\t\t----------------------------------------------------\n\n");
     printf("Player's first Name: ");
 	scanf("%s]", &name);
 
@@ -85,3 +92,5 @@ int main()
     printf("\n\t\t\t ~~~~~ Made With Love By Shubham Singh Raput ~~~~~ \t\t\t\n"); 
     return 0;
 }
+
+
