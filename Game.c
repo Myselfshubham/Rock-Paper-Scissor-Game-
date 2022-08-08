@@ -1,4 +1,3 @@
-
 //Creating Rock, Paper & Scissors Game with C language :)
 // Player 1: rock
 // Player 2 (computer): scissors -->player 1 gets 1 point
